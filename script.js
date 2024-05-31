@@ -23,3 +23,9 @@ checkbox.addEventListener("change", () => {
     }
     document.body.classList.toggle("dark")
 })
+
+/* Copyright annee */
+const dateYear = document.getElementById("dateYear")
+const year = new Date().getFullYear()
+
+dateYear.textContent = year
