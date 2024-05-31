@@ -102,6 +102,7 @@ footer .copyright {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 5rem;
+        row-gap: 1rem;
     }
 }
 
